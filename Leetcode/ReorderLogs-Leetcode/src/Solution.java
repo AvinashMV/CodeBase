@@ -19,6 +19,7 @@ public class Solution {
         List<String> letterlogs = new ArrayList<>();
         List<String> digitlogs = new ArrayList<>();
 
+        // separating the letter log and digit logs.
         for(String s:logs){
             String[] sSplit = s.split(" ",2);
             Pattern pattern = Pattern.compile("[a-z]");
@@ -28,6 +29,7 @@ public class Solution {
             else
                 digitlogs.add(s);
         }
+
 
         letterlogs.sort((log1,log2)->{
             String[] log1Split = log1.split(" ",2);
