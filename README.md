@@ -1,3 +1,3 @@
-# Leetcode
+# CodeBase
 
-This repository contains Java code to problems I solved in leetcode.
+This repository contains the solution to problems I solved in LeetCode and others tests.
